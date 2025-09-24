@@ -4,7 +4,47 @@
 
 A **linked list** is a fundamental data structure used to store a sequence of elements. Unlike arrays, linked lists consist of nodes where each node contains data and a pointer (or reference) to the next node in the sequence. This allows for efficient insertion and deletion of elements without the need to reorganize the entire structure.
 
-<img width="801" height="230" alt="image" src="https://github.com/user-attachments/assets/114f4b01-7de1-4a16-84f3-9dd6706fe4cb" />
+<img width="800" height="330" alt="image" src="https://github.com/user-attachments/assets/f7d39a2f-4577-402a-80d0-3625cc132a64" />
+# Types of Linked Lists
+
+Linked lists are linear data structures where each element (node) points to the next. Based on how the nodes are connected, linked lists are classified into the following types:
+
+---
+
+## 1. Singly Linked List
+- Each node contains:
+  - Data
+  - A pointer to the **next** node
+- The last node points to `NULL`
+- **Traversal:** Forward only
+
+**Example:**
+<img width="801" height="230" alt="image" src="https://github.com/user-attachments/assets/32222127-c89e-4650-b28f-30548a4faa3d" />
+
+
+---
+
+## 2. Doubly Linked List
+- Each node contains:
+  - Data
+  - A pointer to the **next** node
+  - A pointer to the **previous** node
+- Can be traversed in **both directions**
+
+**Example:**
+<img width="801" height="196" alt="image" src="https://github.com/user-attachments/assets/77832f6e-e48f-48ed-8546-7783737c9c75" />
+
+
+---
+
+## 3. Circular Linked List
+- Like a singly linked list, but the last node points back to the **first** node instead of `NULL`
+- **Traversal:** Can loop through nodes indefinitely unless manually stopped
+
+**Example:**
+<img width="801" height="230" alt="image" src="https://github.com/user-attachments/assets/be78e828-b6e0-48ec-9049-4675df9e5034" />
+
+
 
 ### How does a Linked List work?
 
