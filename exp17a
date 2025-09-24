@@ -1,8 +1,8 @@
-#include <iostream>  // corrected header file
+#include <iostream>  
 using namespace std;
 
 class node {
-public:  // fixed typo: 'publuc' -> 'public'
+public:  
     int val;
     node* next;
 
