@@ -4,7 +4,7 @@
 
 A **linked list** is a fundamental data structure used to store a sequence of elements. Unlike arrays, linked lists consist of nodes where each node contains data and a pointer (or reference) to the next node in the sequence. This allows for efficient insertion and deletion of elements without the need to reorganize the entire structure.
 
-https://media.geeksforgeeks.org/wp-content/uploads/20240826132228/singly-linked-list-in-c.webp
+<img width="801" height="230" alt="image" src="https://github.com/user-attachments/assets/114f4b01-7de1-4a16-84f3-9dd6706fe4cb" />
 
 ### How does a Linked List work?
 
