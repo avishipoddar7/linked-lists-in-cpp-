@@ -5,6 +5,8 @@
 A **linked list** is a fundamental data structure used to store a sequence of elements. Unlike arrays, linked lists consist of nodes where each node contains data and a pointer (or reference) to the next node in the sequence. This allows for efficient insertion and deletion of elements without the need to reorganize the entire structure.
 
 <img width="800" height="330" alt="image" src="https://github.com/user-attachments/assets/f7d39a2f-4577-402a-80d0-3625cc132a64" />
+
+
 # Types of Linked Lists
 
 Linked lists are linear data structures where each element (node) points to the next. Based on how the nodes are connected, linked lists are classified into the following types:
